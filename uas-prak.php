@@ -1,7 +1,12 @@
 <?php
-$i = 1;
-while ($i < 6) {
-    echo $i;
-    $i++;
+$color = "red";
+
+switch ($color) {
+  case "red":
+    echo "BENAR";
+    break;
+  case "green":
+    echo "SALAH";
+    break;
 }
 ?>
